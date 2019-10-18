@@ -140,7 +140,7 @@ $(document).ready(function(){
         trivia.incorrect++;
         clearInterval(trivia.timerId);
         resultId = setTimeout(trivia.guessResult, 1000);
-        $('#results').html('<h3>Better luck next time! '+ currentAnswer +'</h3>');
+        $('#results').html('<h3>Wrong Answer! '+ currentAnswer +'</h3>');
       }
       
     },
